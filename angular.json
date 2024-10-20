@@ -95,6 +95,15 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://iamkayrox.github.io/VotV-Picture-Cropper/",
+            "name": "Hermes Quiroz",
+            "email": "iamkayrox@gmail.com",
+            "repo": "https://github.com/IamKayrox/VotV-Picture-Cropper.git"
+          }
         }
       }
     }
